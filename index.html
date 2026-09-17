@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiran Bhaiyya Samant — MLA, Rajapur (Lanja-Rajapur) Constituency</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+  :root{
+    --navy:#132A4E;
+    --navy-deep:#0B1D38;
+    --saffron:#E8792B;
+    --saffron-deep:#C25E15;
+    --leaf:#1E6B45;
+    --cream:#F7F1E4;
+    --paper:#FFFDF8;
+    --ink:#232323;
+    --ink-soft:#5B5648;
+    --line:#DED2B4;
+    --maroon:#7A2A2A;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--cream);color:var(--ink);font-family:'Work Sans',sans-serif;font-size:16px;line-height:1.55;}
+  body[data-lang="mr"]{font-family:'Noto Sans Devanagari','Work Sans',sans-serif;}
+  h1,h2,h3,h4,.display{font-family:'Fraunces',serif;color:var(--navy-deep);margin:0;letter-spacing:-0.01em;}
+  body[data-lang="mr"] h1,body[data-lang="mr"] h2,body[data-lang="mr"] h3,body[data-lang="mr"] h4,body[data-lang="mr"] .display,body[data-lang="mr"] blockquote{font-family:'Noto Sans Devanagari',serif;}
+  a{color:inherit;}
+  img,svg{display:block;max-width:100%;}
+  .skip-link{position:absolute;left:-9999px;top:0;background:var(--saffron);color:#fff;padding:10px 16px;z-index:200;}
+  .skip-link:focus{left:12px;top:12px;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+
+  .gov-strip{background:var(--navy-deep);color:#EFE6D2;font-size:13px;}
+  .gov-strip .wrap{display:flex;justify-content:space-between;align-items:center;padding:7px 24px;flex-wrap:wrap;gap:6px;}
+  .gov-strip .lang button{background:none;border:none;color:#EFE6D2;font:inherit;cursor:pointer;padding:2px 6px;border-radius:2px;}
+  .gov-strip .lang button[aria-current="true"]{background:rgba(255,255,255,0.14);}
+
+  header.masthead{background:var(--paper);border-bottom:3px solid var(--saffron);}
+  .masthead-inner{display:flex;align-items:center;gap:18px;padding:18px 24px;}
+  .seal{flex:none;width:60px;height:60px;border-radius:50%;background:linear-gradient(160deg,var(--saffron),var(--maroon));display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:22px;}
+  .masthead-text{flex:1;min-width:0;}
+  .masthead-text .kicker{font-size:13px;color:var(--ink-soft);font-weight:600;}
+  .masthead-text h1{font-size:22px;font-weight:600;line-height:1.25;}
+  .masthead-text .constituency{color:var(--maroon);font-weight:600;font-size:14.5px;margin-top:2px;}
+  .masthead-text .party{display:inline-block;margin-top:6px;font-size:12.5px;font-weight:700;color:var(--saffron-deep);border:1px solid var(--saffron);padding:2px 9px;border-radius:20px;}
+
+  nav.primary-nav{background:var(--navy);border-bottom:1px solid var(--navy-deep);}
+  nav.primary-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;}
+  nav.primary-nav a{display:block;padding:13px 18px;color:#EFE6D2;text-decoration:none;font-size:14.5px;font-weight:500;border-right:1px solid rgba(255,255,255,0.08);}
+  nav.primary-nav a:hover,nav.primary-nav a:focus{background:var(--navy-deep);color:#fff;}
+
+  .hero{padding:52px 0 44px;border-bottom:1px solid var(--line);position:relative;overflow:hidden;background:var(--paper);}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 88% 20%,rgba(232,121,43,0.14),transparent 45%),radial-gradient(circle at 8% 90%,rgba(30,107,69,0.10),transparent 40%);pointer-events:none;}
+  .hero-grid{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:center;position:relative;}
+  .hero-eyebrow-band{display:inline-flex;align-items:center;gap:8px;background:rgba(30,107,69,0.09);color:var(--leaf);padding:5px 12px;border-radius:3px;font-size:13px;font-weight:600;margin-bottom:16px;border-left:3px solid var(--leaf);}
+  .hero h2.display{font-size:38px;font-weight:600;line-height:1.16;margin-bottom:16px;}
+  .hero p.lede{font-size:17px;color:var(--ink-soft);max-width:52ch;margin-bottom:26px;}
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .btn{display:inline-block;padding:12px 22px;border-radius:3px;font-weight:600;font-size:14.5px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;}
+  .btn-primary{background:var(--saffron);color:#fff;}
+  .btn-primary:hover{background:var(--saffron-deep);}
+  .btn-outline{border-color:var(--navy);color:var(--navy);background:transparent;}
+  .btn-outline:hover{background:var(--navy);color:#fff;}
+
+  .hero-portrait{aspect-ratio:4/5;border-radius:6px;background:linear-gradient(160deg,var(--navy) 0%,var(--navy-deep) 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:6px solid var(--paper);box-shadow:0 10px 28px rgba(19,42,78,0.18);}
+  .hero-portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 15%;display:none;}
+  .hero-portrait .initials{font-family:'Fraunces',serif;font-size:88px;color:rgba(255,255,255,0.92);font-weight:600;position:relative;z-index:1;}
+  .hero-portrait .band{position:absolute;bottom:0;left:0;right:0;background:rgba(11,29,56,0.85);color:#EFE6D2;padding:10px 14px;font-size:12.5px;text-align:center;z-index:2;}
+
+  .stat-row{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper);}
+  .stat{padding:22px 16px;text-align:center;border-right:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat .num{font-family:'Fraunces',serif;font-size:27px;color:var(--maroon);font-weight:600;}
+  .stat .label{font-size:12.5px;color:var(--ink-soft);margin-top:4px;}
+
+  section{padding:56px 0;}
+  section.alt{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .section-head{margin-bottom:30px;max-width:64ch;}
+  .section-head .tag{color:var(--leaf);font-weight:600;font-size:13.5px;margin-bottom:6px;}
+  .section-head h2{font-size:27px;font-weight:600;}
+  .section-head p{color:var(--ink-soft);margin-top:10px;font-size:15px;}
+
+  .vision-columns{display:grid;grid-template-columns:1fr 1fr;gap:36px;}
+  .vision-columns blockquote{margin:0;font-family:'Fraunces',serif;font-size:20px;line-height:1.5;color:var(--navy-deep);font-weight:500;font-style:italic;border-left:3px solid var(--saffron);padding-left:20px;}
+  .pillar-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;}
+  .pillar-list li{display:flex;gap:12px;align-items:flex-start;font-size:15px;}
+  .pillar-list .dot{flex:none;width:8px;height:8px;border-radius:50%;background:var(--saffron);margin-top:7px;}
+
+  /* Work Done Section */
+  .work-list{display:grid;gap:16px;}
+  .work-card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px 22px;display:grid;grid-template-columns:130px 1fr;gap:18px;align-items:start;}
+  .work-card .amt{font-family:'Fraunces',serif;font-size:19px;color:var(--maroon);font-weight:600;}
+  .work-card .amt .lbl{display:block;font-family:'Work Sans',sans-serif;font-size:11.5px;color:var(--ink-soft);font-weight:600;margin-top:2px;}
+  .work-card h3{font-size:16.5px;font-weight:600;margin-bottom:6px;}
+  .work-card p{font-size:14px;color:var(--ink-soft);margin:0 0 8px;}
+  .work-card .src{font-size:12px;color:var(--leaf);font-weight:600;}
+  @media (max-width:700px){.work-card{grid-template-columns:1fr;}}
+
+  /* Photo Gallery: Text Placed Cleanly Below Each Image */
+  .gallery-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  .gallery-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  }
+  .gallery-card .img-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: #111;
+  }
+  .gallery-card .img-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Automatically trims app screenshot headers/footers */
+  .gallery-card .img-wrapper.crop-instagram img {
+    height: 180%;
+    top: -40%;
+  }
+  .gallery-card .card-caption {
+    padding: 14px 16px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery-card .card-caption h4 {
+    font-size: 15.5px;
+    color: var(--navy-deep);
+    margin: 0 0 6px 0;
+    font-weight: 600;
+  }
+  .gallery-card .card-caption p {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0;
+    line-height: 1.45;
+  }
+
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  .card-block{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:26px;}
+  .card-block h3{font-size:19px;font-weight:600;margin-bottom:12px;}
+  .check-list{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+  .check-list li{display:flex;gap:10px;font-size:14.5px;}
+  .check-list li::before{content:"✓";color:var(--leaf);font-weight:700;flex:none;}
+
+  .committee-row{display:flex;gap:14px;flex-wrap:wrap;}
+  .committee-tag{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:10px 18px;font-size:14px;font-weight:600;color:var(--navy-deep);}
+
+  .forms-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+  .form-panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:26px;}
+  .form-panel h3{font-size:19px;font-weight:600;margin-bottom:6px;}
+  .form-panel .sub{font-size:13.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .field{margin-bottom:16px;}
+  .field label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px;color:var(--navy-deep);}
+  .field select,.field input,.field textarea{width:100%;padding:10px 12px;border:1.5px solid var(--line);border-radius:4px;font-family:inherit;font-size:14.5px;background:#fff;color:var(--ink);}
+  .field select:focus,.field input:focus,.field textarea:focus{outline:2px solid var(--saffron);outline-offset:1px;border-color:var(--saffron);}
+  .field textarea{resize:vertical;min-height:96px;}
+  .form-note{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  .confirm-msg{display:none;margin-top:14px;padding:12px 14px;border-radius:4px;background:rgba(30,107,69,0.1);color:var(--leaf);font-size:13.5px;font-weight:600;}
+  .confirm-msg.show{display:block;}
+
+  footer{background:var(--navy-deep);color:#D9CFB2;padding:44px 0 20px;}
+  .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:32px;margin-bottom:30px;}
+  footer h4{color:#fff;font-family:'Fraunces',serif;font-size:16px;margin-bottom:14px;font-weight:600;}
+  body[data-lang="mr"] footer h4{font-family:'Noto Sans Devanagari',serif;}
+  footer p,footer li{font-size:13.5px;line-height:1.7;color:#C9BF9F;}
+  footer ul{list-style:none;margin:0;padding:0;}
+  footer a{text-decoration:none;color:#D9CFB2;}
+  footer a:hover{color:#fff;}
+  .footer-bottom{border-top:1px solid rgba(255,255,255,0.12);padding-top:16px;font-size:12px;color:#9C927A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+
+  @media (max-width:820px){
+    .hero-grid,.vision-columns,.split,.forms-grid{grid-template-columns:1fr;}
+    .gallery-card-grid{grid-template-columns:repeat(2,1fr);}
+    .stat-row{grid-template-columns:1fr 1fr;}
+    .footer-grid{grid-template-columns:1fr;}
+    .hero h2.display{font-size:28px;}
+  }
+  @media (max-width:540px){
+    .gallery-card-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body data-lang="en">
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<div class="gov-strip">
+  <div class="wrap">
+    <span data-i18n="govStrip">Office of the MLA · Rajapur (Lanja-Rajapur) Assembly Constituency, Ratnagiri District, Maharashtra</span>
+    <span class="lang">
+      <button type="button" data-lang-btn="en" aria-current="true">English</button>
+      <button type="button" data-lang-btn="mr" aria-current="false">मराठी</button>
+    </span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="seal">KS</div>
+    <div class="masthead-text">
+      <div class="kicker" data-i18n="kicker">15th Maharashtra Legislative Assembly, 2024–2029</div>
+      <h1 data-i18n="nameTitle">Kiran alias Bhaiyya Samant</h1>
+      <div class="constituency" data-i18n="constituencyLine">MLA, Rajapur (Lanja-Rajapur) Assembly Constituency</div>
+      <span class="party" data-i18n="partyTag">Shiv Sena</span>
+    </div>
+  </div>
+  <nav class="primary-nav" aria-label="Primary">
+    <div class="wrap">
+      <ul>
+        <li><a href="#vision" data-i18n="navVision">Vision</a></li>
+        <li><a href="#work" data-i18n="navWork">Work Done</a></li>
+        <li><a href="#gallery" data-i18n="navGallery">Photo Gallery</a></li>
+        <li><a href="#youth" data-i18n="navYouth">Youth Plans</a></li>
+        <li><a href="#healthcare" data-i18n="navHealth">Healthcare</a></li>
+        <li><a href="#committees" data-i18n="navCommittees">Committees</a></li>
+        <li><a href="#grievance" data-i18n="navGrievance">Grievance Portal</a></li>
+        <li><a href="#feedback" data-i18n="navFeedback">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="hero-eyebrow-band" data-i18n="heroEyebrow">MLA since November 2024 · Won by a margin of 19,677 votes</span>
+        <h2 class="display" data-i18n="heroTitle">Rajapur and Lanja's development, without funds falling short.</h2>
+        <p class="lede" data-i18n="heroLede">A civil engineer and builder by profession, Kiran Bhaiyya Samant represents the Rajapur Assembly constituency in Ratnagiri district. Track development work, water and road projects, and raise a grievance directly with the constituency office.</p>
+        <div class="hero-actions">
+          <a href="#grievance" class="btn btn-primary" data-i18n="btnGrievance">File a Grievance</a>
+          <a href="#work" class="btn btn-outline" data-i18n="btnWork">See Work Done</a>
+        </div>
+      </div>
+      <div>
+        <div class="hero-portrait">
+          <img id="heroPhoto" src="assets/hero.jpeg" alt="Kiran Bhaiyya Samant">
+          <span class="initials" id="heroInitials">KS</span>
+          <div class="band" data-i18n="heroBand">Kiran alias Bhaiyya Samant, MLA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stat-row wrap" style="max-width:1080px;margin:0 auto;">
+    <div class="stat"><div class="num">80,256</div><div class="label" data-i18n="stat1">Votes polled, 2024</div></div>
+    <div class="stat"><div class="num">₹39 Cr</div><div class="label" data-i18n="stat2">Sanctioned for Ratnagiri &amp; Rajapur municipal councils</div></div>
+    <div class="stat"><div class="num">2</div><div class="label" data-i18n="stat3">Legislative committees</div></div>
+    <div class="stat"><div class="num">1973</div><div class="label" data-i18n="stat4">Born in Ratnagiri</div></div>
+  </div>
+
+  <section id="vision">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tag" data-i18n="visionTag">Background &amp; Vision</div>
+        <h2 data-i18n="visionH2">Who is Kiran Bhaiyya Samant</h2>
+        <p data-i18n="bioText">Born in 1973 in Ratnagiri, he holds a diploma in civil engineering from the Board of Technical Examination, Bangalore (1992), and ran a construction business before entering electoral politics. He is the brother of Uday Samant, Maharashtra's Industries Minister and Guardian Minister of Ratnagiri district. He contested and won the Rajapur seat in the 2024 Maharashtra Assembly election on a Shiv Sena (Eknath Shinde-led faction) ticket.</p>
+      </div>
+      <div class="vision-columns">
+        <blockquote data-i18n="visionQuote">"We will not let funds fall short for the development of Rajapur and Lanja."</blockquote>
+        <ul class="pillar-list">
+          <li><span class="dot"></span><span data-i18n="pillar1">Resolving the taluka's long-pending water supply and road infrastructure issues</span></li>
+          <li><span class="dot"></span><span data-i18n="pillar2">Securing state funding for municipal council infrastructure in Ratnagiri and Rajapur</span></li>
+          <li><span class="dot"></span><span data-i18n="pillar3">Developing local tourism sites such as Gangatirth near Unhale</span></li>
+          <li><span class="dot"></span><span data-i18n="pillar4">Supporting healthcare, education, and farmer welfare across the constituency</span></li>
+          <li><span class="dot"></span><span data-i18n="pillar5">Continuing coordination with the Guardian Minister's office for district-level projects</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK DONE SECTION -->
+  <section class="alt" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tag" data-i18n="workTag">Development Record</div>
+        <h2 data-i18n="workH2">Work done in the constituency</h2>
+        <p data-i18n="workSub">Direct initiatives, ground-level reviews, and inaugurated civic projects across Rajapur and Lanja.</p>
+      </div>
+      <div class="work-list">
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w1amt">Sheel<span class="lbl" data-i18n="w1lbl">Water Supply</span></div>
+          <div>
+            <h3 data-i18n="w1title">Parallel Water Supply Pipeline Site Inspection</h3>
+            <p data-i18n="w1desc">Conducted an on-site visit and community review to resolve bottlenecks and expedite the execution of the crucial parallel water pipeline scheme from the Sheel jackwell, safeguarding the long-term water needs of Rajapur city.</p>
+            <div class="src" data-i18n="w1src">Site Review &amp; Inspection</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w2amt">Administrative<span class="lbl" data-i18n="w2lbl">Council Review</span></div>
+          <div>
+            <h3 data-i18n="w2title">Municipal Council &amp; Ward Development Review</h3>
+            <p data-i18n="w2desc">Chaired high-level municipal council meetings with local representatives and officials to expedite civic works, fund allocations, and address regional administrative requirements without delay.</p>
+            <div class="src" data-i18n="w2src">Municipal Administration</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w3amt">Fisheries<span class="lbl" data-i18n="w3lbl">Coastal Infra</span></div>
+          <div>
+            <h3 data-i18n="w3title">Inauguration of Dongar Jetty, Sakhari Nate</h3>
+            <p data-i18n="w3desc">Inaugurated the vital Dongar Jetty at Sakhari Nate in Rajapur taluka, facilitating safe berthing, secure navigation, and improved occupational infrastructure for local fishing communities.</p>
+            <div class="src" data-i18n="w3src">Rajapur Coastal Development</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w4amt">₹1 Cr<span class="lbl" data-i18n="w4lbl">Public Park</span></div>
+          <div>
+            <h3 data-i18n="w4title">Bhoomi Pujan of Namo Udyan, Lanja</h3>
+            <p data-i18n="w4desc">Laid the foundation stone for the ₹1 crore 'Namo Udyan' in Lanja city, featuring dedicated walking circuits, green landscaped open spaces, and modern recreational zones for children and senior citizens.</p>
+            <div class="src" data-i18n="w4src">Urban Development, Lanja</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w5amt">Kuve<span class="lbl" data-i18n="w5lbl">Civic Office</span></div>
+          <div>
+            <h3 data-i18n="w5title">Multi-Purpose Hall &amp; Nagarpanchayat Office at Kuve</h3>
+            <p data-i18n="w5desc">Inaugurated the multipurpose community hall and officially inaugurated the Kuve Nagarpanchayat office, decentralizing administrative access and bringing roads, water, sanitation, and street lighting governance closer to locals.</p>
+            <div class="src" data-i18n="w5src">Rural Civic Governance</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w6amt">NH-66<span class="lbl" data-i18n="w6lbl">Highway &amp; Transit</span></div>
+          <div>
+            <h3 data-i18n="w6title">Mumbai–Goa Highway Bridge Inspection at Chiplun</h3>
+            <p data-i18n="w6desc">Conducted an on-site technical inspection of ongoing bridge works on the Mumbai–Goa Highway in Chiplun ahead of Ganeshotsav, reviewing traffic readiness and coordinating with engineers to ensure seamless transit for commuters.</p>
+            <div class="src" data-i18n="w6src">NH-66 Infrastructure Review</div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="amt" data-i18n="w7amt">Agri-Business<span class="lbl" data-i18n="w7lbl">Women Farmers</span></div>
+          <div>
+            <h3 data-i18n="w7title">Cashew Processing Shed Bhoomi Pujan</h3>
+            <p data-i18n="w7desc">Performed the foundation stone ceremony for a modern cashew processing unit shed in Rajapur taluka, boosting self-reliance, direct market access, and value-added agro-income for local women farming collectives.</p>
+            <div class="src" data-i18n="w7src">Agriculture &amp; Women Empowerment</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY SECTION (Text strictly placed below images) -->
+  <section id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tag" data-i18n="galleryTag">In the Constituency</div>
+        <h2 data-i18n="galleryH2">Photo gallery</h2>
+        <p data-i18n="gallerySub">Key civic visits, project launches, and ground reviews across the constituency.</p>
+      </div>
+      
+      <div class="gallery-card-grid">
+
+        <!-- Image 1: Water Project (Library) -->
+        <div class="gallery-card">
+          <div class="img-wrapper">
+            <img src="assets/water-project.png" alt="Water Pipeline Site Visit" style="object-position: center top;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g1Title">Water Pipeline Scheme Site Visit</h4>
+            <p data-i18n="g1Desc">Inspection and review of the Sheel parallel water supply pipeline.</p>
+          </div>
+        </div>
+
+        <!-- Image 2: Council Meeting -->
+        <div class="gallery-card">
+          <div class="img-wrapper">
+            <img src="assets/council.jpg" alt="Council Review Meeting" style="object-position: center center;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g2Title">Municipal Council Review Meeting</h4>
+            <p data-i18n="g2Desc">Administrative coordination and civic planning meeting with officials.</p>
+          </div>
+        </div>
+
+        <!-- Image 3: Dongar Jetty -->
+        <div class="gallery-card">
+          <div class="img-wrapper crop-instagram">
+            <img src="assets/dongar-jetty.jpeg" alt="Dongar Jetty" style="object-position: center 30%;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g3Title">Dongar Jetty Inauguration, Sakhari Nate</h4>
+            <p data-i18n="g3Desc">Dedicated the jetty for regional fishermen and maritime safety.</p>
+          </div>
+        </div>
+
+        <!-- Image 4: Namo Udyan -->
+        <div class="gallery-card">
+          <div class="img-wrapper crop-instagram">
+            <img src="assets/namo-bhumipujan.jpeg" alt="Namo Udyan" style="object-position: center 38%;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g4Title">Namo Udyan Bhoomi Pujan, Lanja</h4>
+            <p data-i18n="g4Desc">Foundation ceremony for the ₹1 Cr public garden and walking park.</p>
+          </div>
+        </div>
+
+        <!-- Image 5: Kuve Nagarpanchayat & Hall -->
+        <div class="gallery-card">
+          <div class="img-wrapper crop-instagram">
+            <img src="assets/sabhagruh-inogoration.jpeg" alt="Kuve Multi-purpose Hall" style="object-position: center 36%;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g5Title">Kuve Nagarpanchayat &amp; Hall Launch</h4>
+            <p data-i18n="g5Desc">Opening the multi-purpose community hall and civic office at Kuve.</p>
+          </div>
+        </div>
+
+        <!-- Image 6: Highway Bridge Inspection -->
+        <div class="gallery-card">
+          <div class="img-wrapper crop-instagram">
+            <img src="assets/chipul-pull.jpeg" alt="Highway Bridge Chiplun" style="object-position: center 48%;">
+          </div>
+          <div class="card-caption">
+            <h4 data-i18n="g6Title">Mumbai–Goa Highway Bridge Inspection</h4>
+            <p data-i18n="g6Desc">On-site review of Chiplun bridge works ahead of Ganeshotsav transit.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="split">
+        <div id="youth" class="card-block">
+          <div class="tag" style="color:var(--leaf);font-size:13px;font-weight:600;margin-bottom:6px;" data-i18n="youthTag">Youth Plans</div>
+          <h3 data-i18n="youthH3">Skilling and opportunity in Rajapur-Lanja</h3>
+          <ul class="check-list">
+            <li data-i18n="y1">Supporting local youth and social organisations in the taluka</li>
+            <li data-i18n="y2">Backing skill and employment initiatives tied to tourism and cashew processing</li>
+            <li data-i18n="y3">Encouraging youth participation in civic and cultural programmes</li>
+            <li data-i18n="y4">Coordinating with state schemes for rural employment and self-help groups</li>
+          </ul>
+        </div>
+        <div id="healthcare" class="card-block">
+          <div class="tag" style="color:var(--leaf);font-size:13px;font-weight:600;margin-bottom:6px;" data-i18n="healthTag">Healthcare</div>
+          <h3 data-i18n="healthH3">Strengthening local healthcare access</h3>
+          <ul class="check-list">
+            <li data-i18n="h1">Raising healthcare infrastructure gaps flagged by taluka residents in the Assembly</li>
+            <li data-i18n="h2">Coordinating with the district administration on rural health facility upgrades</li>
+            <li data-i18n="h3">Supporting improved municipal civic services in Ratnagiri and Rajapur towns</li>
+            <li data-i18n="h4">Following up on healthcare access as part of the broader Rajapur-Lanja development agenda</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="committees">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tag" data-i18n="commTag">Legislative Role</div>
+        <h2 data-i18n="commH2">Committee memberships</h2>
+        <p data-i18n="commSub">Appointed by the Speaker of the Maharashtra Legislative Assembly during his first term.</p>
+      </div>
+      <div class="committee-row">
+        <span class="committee-tag" data-i18n="commTag1">Estimates Committee</span>
+        <span class="committee-tag" data-i18n="commTag2">Assurance Committee</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="tag" data-i18n="serviceTag">Constituent Services</div>
+        <h2 data-i18n="serviceH2">Grievance portal and feedback</h2>
+        <p data-i18n="serviceSub">Choose a category, describe the issue, and our office will follow up within 7 working days.</p>
+      </div>
+      <div class="forms-grid">
+        <form class="form-panel" id="grievanceForm" novalidate>
+          <h3 id="grievance" data-i18n="gTitle">Grievance Portal</h3>
+          <div class="sub" data-i18n="gSub">For complaints regarding roads, water, sanitation, electricity, or other civic issues in the Rajapur-Lanja taluka.</div>
+          <div class="field">
+            <label for="grievanceCategory" data-i18n="gCatLabel">Category</label>
+            <select id="grievanceCategory" required>
+              <option value="" data-i18n="gCatOpt0">Select a category</option>
+              <option data-i18n="gCatOpt1">Water Supply</option>
+              <option data-i18n="gCatOpt2">Roads &amp; Bridges</option>
+              <option data-i18n="gCatOpt3">Municipal Council Services</option>
+              <option data-i18n="gCatOpt4">Healthcare</option>
+              <option data-i18n="gCatOpt5">Agriculture &amp; Farmer Welfare</option>
+              <option data-i18n="gCatOpt6">Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="grievanceVillage" data-i18n="gVillageLabel">Village / Ward</label>
+            <input type="text" id="grievanceVillage" data-i18n-placeholder="gVillagePh" placeholder="e.g. Pachal, Rajapur taluka">
+          </div>
+          <div class="field">
+            <label for="grievanceDescription" data-i18n="gDescLabel">Description</label>
+            <textarea id="grievanceDescription" data-i18n-placeholder="gDescPh" placeholder="Describe the issue, its exact location, and how long it has persisted." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="gSubmit">Submit Grievance</button>
+          <div class="form-note" data-i18n="gNote">You'll receive a complaint reference number by SMS once submitted.</div>
+          <div class="confirm-msg" id="grievanceConfirm" data-i18n="gConfirm">Thank you. Your grievance has been logged. Reference number: RJP-2026-01274.</div>
+        </form>
+
+        <form class="form-panel" id="feedbackForm" novalidate>
+          <h3 id="feedback" data-i18n="fTitle">Feedback &amp; Suggestions</h3>
+          <div class="sub" data-i18n="fSub">Share ideas for the constituency or feedback on ongoing work.</div>
+          <div class="field">
+            <label for="feedbackName" data-i18n="fNameLabel">Name</label>
+            <input type="text" id="feedbackName" data-i18n-placeholder="fNamePh" placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="feedbackContact" data-i18n="fContactLabel">Phone or email</label>
+            <input type="text" id="feedbackContact" data-i18n-placeholder="fContactPh" placeholder="So we can follow up if needed">
+          </div>
+          <div class="field">
+            <label for="feedbackMessage" data-i18n="fMsgLabel">Your suggestion</label>
+            <textarea id="feedbackMessage" data-i18n-placeholder="fMsgPh" placeholder="Tell us what's working, and what could be better." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline" data-i18n="fSubmit">Send Feedback</button>
+          <div class="confirm-msg" id="feedbackConfirm" data-i18n="fConfirm">Thank you for the suggestion — it has been shared with the office.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4 data-i18n="footerOfficeH4">Constituency Office</h4>
+        <p data-i18n="footerOfficeP">Office of the MLA<br>Rajapur (Lanja-Rajapur) Assembly Constituency<br>Ratnagiri District, Maharashtra</p>
+        <p data-i18n="footerContact">Helpline: [add office number]<br>Email: [add official email]</p>
+      </div>
+      <div>
+        <h4 data-i18n="footerLinksH4">Quick Links</h4>
+        <ul>
+          <li><a href="#vision" data-i18n="navVision">Vision</a></li>
+          <li><a href="#work" data-i18n="navWork">Work Done</a></li>
+          <li><a href="#grievance" data-i18n="navGrievance">Grievance Portal</a></li>
+          <li><a href="#committees" data-i18n="navCommittees">Committees</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footerHoursH4">Office Hours</h4>
+        <p data-i18n="footerHoursP">Monday – Saturday<br>10:00 AM – 6:00 PM<br>Public darbar — timing to be confirmed with office</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footerBottomLeft">© 2026 Office of the MLA, Rajapur Constituency. Demo layout — verify all facts before publishing.</span>
+      <span>Shiv Sena</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var translations = {
+    govStrip:{en:"Office of the MLA · Rajapur (Lanja-Rajapur) Assembly Constituency, Ratnagiri District, Maharashtra", mr:"आमदार कार्यालय · राजापूर (लांजा-राजापूर) विधानसभा मतदारसंघ, रत्नागिरी जिल्हा, महाराष्ट्र"},
+    kicker:{en:"15th Maharashtra Legislative Assembly, 2024–2029", mr:"१५ वी महाराष्ट्र विधानसभा, २०२४–२०२९"},
+    nameTitle:{en:"Kiran alias Bhaiyya Samant", mr:"किरण उर्फ भैय्या सामंत"},
+    constituencyLine:{en:"MLA, Rajapur (Lanja-Rajapur) Assembly Constituency", mr:"आमदार, राजापूर (लांजा-राजापूर) विधानसभा मतदारसंघ"},
+    partyTag:{en:"Shiv Sena", mr:"शिवसेना"},
+    navVision:{en:"Vision", mr:"दृष्टिकोन"},
+    navWork:{en:"Work Done", mr:"झालेली कामे"},
+    navGallery:{en:"Photo Gallery", mr:"छायाचित्र दालन"},
+    navYouth:{en:"Youth Plans", mr:"युवा उपक्रम"},
+    navHealth:{en:"Healthcare", mr:"आरोग्य"},
+    navCommittees:{en:"Committees", mr:"समित्या"},
+    navGrievance:{en:"Grievance Portal", mr:"तक्रार पोर्टल"},
+    navFeedback:{en:"Feedback", mr:"अभिप्राय"},
+    heroEyebrow:{en:"MLA since November 2024 · Won by a margin of 19,677 votes", mr:"नोव्हेंबर २०२४ पासून आमदार · १९,६७७ मतांच्या फरकाने विजयी"},
+    heroTitle:{en:"Rajapur and Lanja's development, without funds falling short.", mr:"राजापूर आणि लांजाच्या विकासासाठी निधी कमी पडू देणार नाही."},
+    heroLede:{en:"A civil engineer and builder by profession, Kiran Bhaiyya Samant represents the Rajapur Assembly constituency in Ratnagiri district. Track development work, water and road projects, and raise a grievance directly with the constituency office.", mr:"व्यवसायाने स्थापत्य अभियंता आणि बांधकाम व्यावसायिक असलेले किरण भैय्या सामंत रत्नागिरी जिल्ह्यातील राजापूर विधानसभा मतदारसंघाचे प्रतिनिधित्व करतात. विकासकामे, पाणी व रस्ते प्रकल्प पहा किंवा थेट कार्यालयाकडे तक्रार नोंदवा."},
+    btnGrievance:{en:"File a Grievance", mr:"तक्रार नोंदवा"},
+    btnWork:{en:"See Work Done", mr:"कामांचा आढावा पहा"},
+    heroBand:{en:"Kiran alias Bhaiyya Samant, MLA", mr:"किरण उर्फ भैय्या सामंत, आमदार"},
+    stat1:{en:"Votes polled, 2024", mr:"२०२४ मध्ये मिळालेली मते"},
+    stat2:{en:"Sanctioned for Ratnagiri &amp; Rajapur municipal councils", mr:"रत्नागिरी व राजापूर नगरपालिकांसाठी मंजूर निधी"},
+    stat3:{en:"Legislative committees", mr:"विधानसभा समित्या"},
+    stat4:{en:"Born in Ratnagiri", mr:"जन्म रत्नागिरीत"},
+    visionTag:{en:"Background &amp; Vision", mr:"पार्श्वभूमी व दृष्टिकोन"},
+    visionH2:{en:"Who is Kiran Bhaiyya Samant", mr:"किरण भैय्या सामंत कोण आहेत"},
+    bioText:{en:"Born in 1973 in Ratnagiri, he holds a diploma in civil engineering from the Board of Technical Examination, Bangalore (1992), and ran a construction business before entering electoral politics. He is the brother of Uday Samant, Maharashtra's Industries Minister and Guardian Minister of Ratnagiri district. He contested and won the Rajapur seat in the 2024 Maharashtra Assembly election on a Shiv Sena (Eknath Shinde-led faction) ticket.", mr:"१९७३ मध्ये रत्नागिरीत जन्मलेल्या किरण सामंत यांनी बंगळुरूच्या तांत्रिक परीक्षा मंडळातून स्थापत्य अभियांत्रिकी पदविका (१९९२) पूर्ण केली आणि राजकारणात येण्यापूर्वी बांधकाम व्यवसाय सांभाळला. ते राज्याचे उद्योगमंत्री व रत्नागिरीचे पालकमंत्री उदय सामंत यांचे बंधू आहेत. २०२४ च्या विधानसभा निवडणुकीत शिवसेना (एकनाथ शिंदे गट) कडून त्यांनी राजापूर मतदारसंघातून विजय मिळवला."},
+    visionQuote:{en:'"We will not let funds fall short for the development of Rajapur and Lanja."', mr:'"राजापूर आणि लांजाच्या विकासासाठी निधी कमी पडू देणार नाही."'},
+    pillar1:{en:"Resolving the taluka's long-pending water supply and road infrastructure issues", mr:"तालुक्यातील प्रलंबित पाणीपुरवठा व रस्ते समस्यांचे निराकरण"},
+    pillar2:{en:"Securing state funding for municipal council infrastructure in Ratnagiri and Rajapur", mr:"रत्नागिरी व राजापूर नगरपालिकांसाठी राज्य निधी मिळवणे"},
+    pillar3:{en:"Developing local tourism sites such as Gangatirth near Unhale", mr:"उन्हाळे येथील गंगातीर्थसारख्या पर्यटनस्थळांचा विकास"},
+    pillar4:{en:"Supporting healthcare, education, and farmer welfare across the constituency", mr:"मतदारसंघातील आरोग्य, शिक्षण व शेतकरी कल्याणासाठी पाठपुरावा"},
+    pillar5:{en:"Continuing coordination with the Guardian Minister's office for district-level projects", mr:"जिल्हास्तरीय प्रकल्पांसाठी पालकमंत्री कार्यालयाशी समन्वय"},
+    
+    // Work Done Translations
+    workTag:{en:"Development Record", mr:"विकासकामांचा आढावा"},
+    workH2:{en:"Work done in the constituency", mr:"मतदारसंघातील झालेली कामे"},
+    workSub:{en:"Direct initiatives, ground-level reviews, and inaugurated civic projects across Rajapur and Lanja.", mr:"राजापूर आणि लांजामधील प्रत्यक्ष पाहणी, बैठका आणि मार्गी लावलेली विकासकामे."},
+    
+    w1amt:{en:"Sheel", mr:"शीळ"}, w1lbl:{en:"Water Supply", mr:"जलवाहिनी पाहणी"},
+    w1title:{en:"Parallel Water Supply Pipeline Site Inspection", mr:"शीळ समांतर पाणीपुरवठा जलवाहिनी प्रत्यक्ष पाहणी"},
+    w1desc:{en:"Conducted an on-site visit and community review to resolve bottlenecks and expedite the execution of the crucial parallel water pipeline scheme from the Sheel jackwell, safeguarding the long-term water needs of Rajapur city.", mr:"शीळ जॅकवेलवरून राजापूर शहरासाठी टाकण्यात येणाऱ्या समांतर जलवाहिनीच्या कामाची पाहणी करून स्थानिक अडचणी सोडवल्या व शहर पाणीपुरवठा सुरळीत करण्याचा मार्ग मोकळा केला."},
+    w1src:{en:"Site Review & Inspection", mr:"प्रत्यक्ष स्थळ पाहणी"},
+
+    w2amt:{en:"Administrative", mr:"प्रशासकीय"}, w2lbl:{en:"Council Review", mr:"नगरपरिषद आढावा"},
+    w2title:{en:"Municipal Council & Ward Development Review", mr:"नगरपरिषद विकासकामे व आढावा बैठक"},
+    w2desc:{en:"Chaired high-level municipal council meetings with local representatives and officials to expedite civic works, fund allocations, and address regional administrative requirements without delay.", mr:"नगरपालिकेच्या विविध विकासकामांना गती देण्यासाठी आणि नागरिकांच्या समस्यांचे निवारण करण्यासाठी पदाधिकारी व अधिकाऱ्यांसोबत प्रत्यक्ष आढावा बैठक घेतली."},
+    w2src:{en:"Municipal Administration", mr:"नगरपालिका प्रशासन"},
+
+    w3amt:{en:"Fisheries", mr:"मत्स्य व्यवसाय"}, w3lbl:{en:"Coastal Infra", mr:"सागरी सुविधा"},
+    w3title:{en:"Inauguration of Dongar Jetty, Sakhari Nate", mr:"साखरीनाटे येथील डोंगरा जेटीचे लोकार्पण"},
+    w3desc:{en:"Inaugurated the vital Dongar Jetty at Sakhari Nate in Rajapur taluka, facilitating safe berthing, secure navigation, and improved occupational infrastructure for local fishing communities.", mr:"राजापूर तालुक्यातील साखरीनाटे येथील मच्छीमार बांधवांसाठी अत्यंत महत्त्वाच्या असलेल्या डोंगरा जेटीचे उद्घाटन केले; यामुळे नौका सुरक्षेची व मासेमारीची मोठी सुविधा निर्माण झाली."},
+    w3src:{en:"Rajapur Coastal Development", mr:"राजापूर सागरी विकास"},
+
+    w4amt:{en:"₹1 Cr", mr:"₹१ कोटी"}, w4lbl:{en:"Public Park", mr:"नमो उद्यान"},
+    w4title:{en:"Bhoomi Pujan of Namo Udyan, Lanja", mr:"लांजा येथील 'नमो उद्यान' प्रकल्पाचे भूमिपूजन"},
+    w4desc:{en:"Laid the foundation stone for the ₹1 crore 'Namo Udyan' in Lanja city, featuring dedicated walking circuits, green landscaped open spaces, and modern recreational zones for children and senior citizens.", mr:"लांजा शहराच्या सौंदर्यात भर घालणाऱ्या सुमारे १ कोटी रुपये खर्चाच्या भव्य आणि आकर्षक 'नमो उद्यान' प्रकल्पाचे भूमिपूजन संपन्न केले."},
+    w4src:{en:"Urban Development, Lanja", mr:"लांजा शहर विकास"},
+
+    w5amt:{en:"Kuve", mr:"कुवे"}, w5lbl:{en:"Civic Office", mr:"नागरी सुविधा"},
+    w5title:{en:"Multi-Purpose Hall & Nagarpanchayat Office at Kuve", mr:"कुवे येथे बहुउद्देशीय सभागृह व नगरपंचायत कार्यालय शुभारंभ"},
+    w5desc:{en:"Inaugurated the multipurpose community hall and officially inaugurated the Kuve Nagarpanchayat office, decentralizing administrative access and bringing roads, water, sanitation, and street lighting governance closer to locals.", mr:"कुवे येथील बहुउद्देशीय सभागृहाचे उद्घाटन व नगरपंचायत कार्यालयाचा शुभारंभ करून नागरिकांना स्थानिक पातळीवरच रस्ते, पाणी, स्वच्छता व इतर प्रशासकीय सेवा उपलब्ध करून दिल्या."},
+    w5src:{en:"Rural Civic Governance", mr:"स्थानिक स्वराज्य संस्था"},
+
+    w6amt:{en:"NH-66", mr:"महामार्ग"}, w6lbl:{en:"Highway & Transit", mr:"पूल पाहणी"},
+    w6title:{en:"Mumbai–Goa Highway Bridge Inspection at Chiplun", mr:"चिपळूण येथे मुंबई-गोवा महामार्गावरील पुलाच्या कामाची पाहणी"},
+    w6desc:{en:"Conducted an on-site technical inspection of ongoing bridge works on the Mumbai–Goa Highway in Chiplun ahead of Ganeshotsav, reviewing traffic readiness and coordinating with engineers to ensure seamless transit for commuters.", mr:"गणेशोत्सवाच्या पार्श्वभूमीवर चाकरमानी व प्रवाशांची वाहतूक सुरळीत राहावी यासाठी चिपळूण येथील महामार्गावरील पुलाच्या कामाची संबंधित अधिकारी व अभियंत्यांसमवेत प्रत्यक्ष पाहणी केली."},
+    w6src:{en:"NH-66 Infrastructure Review", mr:"महामार्ग पायाभूत सुविधा"},
+
+    w7amt:{en:"Agri-Business", mr:"कृषी उद्योग"}, w7lbl:{en:"Women Farmers", mr:"शेतकरी सक्षमीकरण"},
+    w7title:{en:"Cashew Processing Shed Bhoomi Pujan", mr:"काजू प्रक्रिया उद्योग शेड भूमिपूजन सोहळा"},
+    w7desc:{en:"Performed the foundation stone ceremony for a modern cashew processing unit shed in Rajapur taluka, boosting self-reliance, direct market access, and value-added agro-income for local women farming collectives.", mr:"राजापूर तालुक्यातील महिला शेतकऱ्यांना आर्थिकदृष्ट्या सक्षम करण्यासाठी आणि स्थानिक कृषी उत्पादनांना हक्काची बाजारपेठ मिळवून देण्यासाठी काजू प्रक्रिया शेडचे भूमिपूजन केले."},
+    w7src:{en:"Agriculture & Women Empowerment", mr:"शेती व महिला सक्षमीकरण"},
+
+    // Gallery Translations
+    galleryTag:{en:"In the Constituency", mr:"मतदारसंघात"},
+    galleryH2:{en:"Photo gallery", mr:"छायाचित्र दालन"},
+    gallerySub:{en:"Key civic visits, project launches, and ground reviews across the constituency.", mr:"मतदारसंघातील विविध विकासकामे, प्रत्यक्ष पाहणी व लोकार्पण सोहळे."},
+    g1Title:{en:"Water Pipeline Scheme Site Visit", mr:"पाणीपुरवठा योजना प्रत्यक्ष पाहणी"},
+    g1Desc:{en:"Inspection and review of the Sheel parallel water supply pipeline.", mr:"शीळ जॅकवेल समांतर जलवाहिनीच्या कामाची पाहणी आणि ग्रामस्थांशी चर्चा."},
+    g2Title:{en:"Municipal Council Review Meeting", mr:"नगरपरिषद आढावा बैठक"},
+    g2Desc:{en:"Administrative coordination and civic planning meeting with officials.", mr:"नगरपालिकेतील विकासकामांचा वेग वाढवण्यासाठी अधिकारी व पदाधिकाऱ्यांसोबत बैठक."},
+    g3Title:{en:"Dongar Jetty Inauguration, Sakhari Nate", mr:"डोंगर जेटी लोकार्पण, साखरीनाटे"},
+    g3Desc:{en:"Dedicated the jetty for regional fishermen and maritime safety.", mr:"साखरीनाटे येथील मच्छीमारांच्या सोयीसाठी व नौका सुरक्षेसाठी जेटीचे लोकार्पण."},
+    g4Title:{en:"Namo Udyan Bhoomi Pujan, Lanja", mr:"नमो उद्यान भूमिपूजन, लांजा"},
+    g4Desc:{en:"Foundation ceremony for the ₹1 Cr public garden and walking park.", mr:"लांजा शहरातील १ कोटी रुपये खर्चाच्या नमो उद्यान प्रकल्पाचा शुभारंभ."},
+    g5Title:{en:"Kuve Nagarpanchayat & Hall Launch", mr:"कुवे नगरपंचायत व सभागृह शुभारंभ"},
+    g5Desc:{en:"Opening the multi-purpose community hall and civic office at Kuve.", mr:"स्थानिक पातळीवर नागरी सेवा देण्यासाठी बहुउद्देशीय सभागृह व कार्यालयाचे उद्घाटन."},
+    g6Title:{en:"Mumbai–Goa Highway Bridge Inspection", mr:"मुंबई-गोवा महामार्ग पूल पाहणी, चिपळूण"},
+    g6Desc:{en:"On-site review of Chiplun bridge works ahead of Ganeshotsav transit.", mr:"गणेशोत्सवाच्या पार्श्वभूमीवर वाहतूक सुरळीत राहण्यासाठी चिपळूण पुलाची प्रत्यक्ष पाहणी."},
+
+    youthTag:{en:"Youth Plans", mr:"युवा उपक्रम"},
+    youthH3:{en:"Skilling and opportunity in Rajapur-Lanja", mr:"राजापूर-लांजामधील युवकांसाठी कौशल्य व संधी"},
+    y1:{en:"Supporting local youth and social organisations in the taluka", mr:"तालुक्यातील स्थानिक युवा व सामाजिक संस्थांना पाठबळ"},
+    y2:{en:"Backing skill and employment initiatives tied to tourism and cashew processing", mr:"पर्यटन व काजू प्रक्रिया उद्योगांशी निगडित रोजगार व कौशल्य उपक्रमांना चालना"},
+    y3:{en:"Encouraging youth participation in civic and cultural programmes", mr:"नागरी व सांस्कृतिक कार्यक्रमांत युवकांच्या सहभागाला प्रोत्साहन"},
+    y4:{en:"Coordinating with state schemes for rural employment and self-help groups", mr:"ग्रामीण रोजगार व बचत गटांसाठी शासकीय योजनांशी समन्वय"},
+    healthTag:{en:"Healthcare", mr:"आरोग्य सुविधा"},
+    healthH3:{en:"Strengthening local healthcare access", mr:"आरोग्य सेवांचे बळकटीकरण"},
+    h1:{en:"Raising healthcare infrastructure gaps flagged by taluka residents in the Assembly", mr:"तालुक्यातील नागरिकांनी मांडलेल्या आरोग्य सुविधांच्या त्रुटी विधानसभेत उपस्थित करणे"},
+    h2:{en:"Coordinating with the district administration on rural health facility upgrades", mr:"ग्रामीण आरोग्य सुविधांच्या सुधारणांसाठी जिल्हा प्रशासनाशी समन्वय"},
+    h3:{en:"Supporting improved municipal civic services in Ratnagiri and Rajapur towns", mr:"रत्नागिरी व राजापूर शहरांतील नागरी आरोग्य सेवा सुधारण्यासाठी पाठपुरावा"},
+    h4:{en:"Following up on healthcare access as part of the broader Rajapur-Lanja development agenda", mr:"राजापूर-लांजा विकास आराखड्याचा भाग म्हणून आरोग्यसेवांचा सातत्याने पाठपुरावा"},
+    commTag:{en:"Legislative Role", mr:"विधिमंडळातील भूमिका"},
+    commH2:{en:"Committee memberships", mr:"समिती सदस्यत्व"},
+    commSub:{en:"Appointed by the Speaker of the Maharashtra Legislative Assembly during his first term.", mr:"पहिल्या टर्ममध्ये विधानसभा अध्यक्षांनी केलेली नियुक्ती."},
+    commTag1:{en:"Estimates Committee", mr:"अंदाज समिती"},
+    commTag2:{en:"Assurance Committee", mr:"आश्वासन समिती"},
+    serviceTag:{en:"Constituent Services", mr:"नागरी सेवा"},
+    serviceH2:{en:"Grievance portal and feedback", mr:"तक्रार निवारण व अभिप्राय"},
+    serviceSub:{en:"Choose a category, describe the issue, and our office will follow up within 7 working days.", mr:"प्रकार निवडा, तक्रार लिहा — कार्यालय ७ कामकाजी दिवसांत संपर्क साधेल."},
+    gTitle:{en:"Grievance Portal", mr:"तक्रार निवारण पोर्टल"},
+    gSub:{en:"For complaints regarding roads, water, sanitation, electricity, or other civic issues in the Rajapur-Lanja taluka.", mr:"रस्ते, पाणी, स्वच्छता, वीज किंवा इतर नागरी समस्यांसाठी."},
+    gCatLabel:{en:"Category", mr:"प्रकार"},
+    gCatOpt0:{en:"Select a category", mr:"प्रकार निवडा"},
+    gCatOpt1:{en:"Water Supply", mr:"पाणीपुरवठा"},
+    gCatOpt2:{en:"Roads &amp; Bridges", mr:"रस्ते व पूल"},
+    gCatOpt3:{en:"Municipal Council Services", mr:"नगरपालिका सेवा"},
+    gCatOpt4:{en:"Healthcare", mr:"आरोग्य"},
+    gCatOpt5:{en:"Agriculture &amp; Farmer Welfare", mr:"शेती व शेतकरी कल्याण"},
+    gCatOpt6:{en:"Other", mr:"इतर"},
+    gVillageLabel:{en:"Village / Ward", mr:"गाव / वॉर्ड"},
+    gVillagePh:{en:"e.g. Pachal, Rajapur taluka", mr:"उदा. पाचल, राजापूर तालुका"},
+    gDescLabel:{en:"Description", mr:"तपशील"},
+    gDescPh:{en:"Describe the issue, its exact location, and how long it has persisted.", mr:"समस्या, नेमके ठिकाण आणि ती किती काळापासून आहे ते लिहा."},
+    gSubmit:{en:"Submit Grievance", mr:"तक्रार सादर करा"},
+    gNote:{en:"You'll receive a complaint reference number by SMS once submitted.", mr:"सादर केल्यानंतर तुम्हाला एसएमएसद्वारे तक्रार क्रमांक मिळेल."},
+    gConfirm:{en:"Thank you. Your grievance has been logged. Reference number: RJP-2026-01274.", mr:"धन्यवाद. तुमची तक्रार नोंदवली आहे. संदर्भ क्रमांक: RJP-2026-01274."},
+    fTitle:{en:"Feedback &amp; Suggestions", mr:"अभिप्राय व सूचना"},
+    fSub:{en:"Share ideas for the constituency or feedback on ongoing work.", mr:"मतदारसंघासाठी कल्पना किंवा सुरू असलेल्या कामांबद्दल अभिप्राय कळवा."},
+    fNameLabel:{en:"Name", mr:"नाव"},
+    fNamePh:{en:"Your name", mr:"तुमचे नाव"},
+    fContactLabel:{en:"Phone or email", mr:"फोन किंवा ईमेल"},
+    fContactPh:{en:"So we can follow up if needed", mr:"आवश्यकतेनुसार संपर्कासाठी"},
+    fMsgLabel:{en:"Your suggestion", mr:"तुमची सूचना"},
+    fMsgPh:{en:"Tell us what's working, and what could be better.", mr:"काय चांगले चालले आहे आणि कशात सुधारणा हवी ते सांगा."},
+    fSubmit:{en:"Send Feedback", mr:"अभिप्राय पाठवा"},
+    fConfirm:{en:"Thank you for the suggestion — it has been shared with the office.", mr:"सूचनेबद्दल धन्यवाद — ती कार्यालयाकडे पाठवण्यात आली आहे."},
+    footerOfficeH4:{en:"Constituency Office", mr:"मतदारसंघ कार्यालय"},
+    footerOfficeP:{en:"Office of the MLA<br>Rajapur (Lanja-Rajapur) Assembly Constituency<br>Ratnagiri District, Maharashtra", mr:"आमदार कार्यालय<br>राजापूर (लांजा-राजापूर) विधानसभा मतदारसंघ<br>रत्नागिरी जिल्हा, महाराष्ट्र"},
+    footerContact:{en:"Helpline: [add office number]<br>Email: [add official email]", mr:"हेल्पलाईन: [कार्यालय क्रमांक टाका]<br>ईमेल: [अधिकृत ईमेल टाका]"},
+    footerLinksH4:{en:"Quick Links", mr:"द्रुत दुवे"},
+    footerHoursH4:{en:"Office Hours", mr:"कार्यालयीन वेळ"},
+    footerHoursP:{en:"Monday – Saturday<br>10:00 AM – 6:00 PM<br>Public darbar — timing to be confirmed with office", mr:"सोमवार – शनिवार<br>सकाळी १० ते सायंकाळी ६<br>जनता दरबार — वेळ कार्यालयाकडून निश्चित करावी"},
+    footerBottomLeft:{en:"© 2026 Office of the MLA, Rajapur Constituency. Demo layout — verify all facts before publishing.", mr:"© २०२६ आमदार कार्यालय, राजापूर मतदारसंघ. डेमो मांडणी — प्रकाशित करण्यापूर्वी सर्व माहिती तपासून घ्या."}
+  };
+
+  function setLanguage(lang){
+    document.body.setAttribute('data-lang', lang);
+    document.getElementById('htmlRoot').setAttribute('lang', lang);
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var key = el.getAttribute('data-i18n');
+      if(translations[key]){
+        var nested = el.querySelector(':scope > *');
+        if(nested && key.startsWith('w') && key.endsWith('amt')){
+          var lblKey = key.replace('amt','lbl');
+          el.childNodes[0].nodeValue = translations[key][lang];
+          if(translations[lblKey]) nested.innerHTML = translations[lblKey][lang];
+        } else {
+          el.innerHTML = translations[key][lang];
+        }
+      }
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+      var key = el.getAttribute('data-i18n-placeholder');
+      if(translations[key]) el.setAttribute('placeholder', translations[key][lang]);
+    });
+    document.querySelectorAll('.gov-strip .lang button').forEach(function(btn){
+      btn.setAttribute('aria-current', btn.getAttribute('data-lang-btn') === lang ? 'true' : 'false');
+    });
+  }
+
+  document.querySelectorAll('.gov-strip .lang button').forEach(function(btn){
+    btn.addEventListener('click', function(){ setLanguage(btn.getAttribute('data-lang-btn')); });
+  });
+
+  var heroPhoto = document.getElementById('heroPhoto');
+  var heroInitials = document.getElementById('heroInitials');
+  if(heroPhoto.complete && heroPhoto.naturalHeight !== 0){
+    heroPhoto.style.display = 'block';
+    heroInitials.style.display = 'none';
+  }
+  heroPhoto.addEventListener('load', function(){ heroPhoto.style.display='block'; heroInitials.style.display='none'; });
+  heroPhoto.addEventListener('error', function(){ heroPhoto.style.display='none'; heroInitials.style.display='block'; });
+
+  document.getElementById('grievanceForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('grievanceConfirm').classList.add('show');
+    this.reset();
+  });
+  document.getElementById('feedbackForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('feedbackConfirm').classList.add('show');
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
